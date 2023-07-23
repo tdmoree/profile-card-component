@@ -1,0 +1,163 @@
+:root {
+    --bottom: hsl(0, 0%, 100%);
+    --text1: hsl(0, 0%, 0%);
+    --text2: hsl(0, 2%, 72%);
+    --bgColor :  hsl(185, 75%, 39%);
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Kumbh Sans", sans-serif;
+}
+
+body {
+    background-color: var(--bgColor);
+    background-image: url(image/bg-pattern-top.svg),
+        url(image/bg-pattern-bottom.svg);
+    background-repeat: no-repeat;
+    background-position: left -43.75rem top -37.5rem, right -48rem top 25rem;
+    min-height: 100vh;
+}
+
+.mainContainer {
+    display: flex;
+    justify-content: center;
+   margin-top: 12.05rem;
+  
+}
+
+.content {
+    background-color: var(--bottom);
+    border-radius: 1rem;
+    min-height: 80vh;
+}
+
+.topContainer {
+    width: 350px;
+    height: 225px;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.profileContent {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.profileImg {
+    margin-top: -3.625rem;
+    border: 10px solid var(--bottom);
+    border-radius: 6.25rem;
+    height: 20vh;
+}
+
+.flex {
+    margin-top: 1rem;
+}
+
+.span {
+    padding-top: 1rem;
+}
+
+h2,
+.bottom {
+    display: inline;
+}
+
+.bottom {
+    margin-left: 8px;
+    color: var(--text2);
+}
+
+h2,
+.head {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: var(--text1)
+}
+
+span {
+    font-size: .9375rem;
+    color: var(--text2);
+}
+
+.border {
+    margin-top: 2.25rem;
+    border-top: 1px dashed var(--text2);
+}
+
+.number {
+    display: flex;
+    justify-content: center;
+    column-gap: 1.25rem;
+    margin-top: 45px;
+    text-align: center;
+}
+
+@media screen and (min-width: 36rem) {
+    body {
+      background-image: url(image/bg-pattern-top.svg),
+        url(image/bg-pattern-bottom.svg);
+      background-repeat: no-repeat;
+      background-position: left -25rem top -38.75rem, right -30rem top 15rem;
+      line-height: 2rem;
+      min-height: 80vh;
+    }
+    
+
+    .mainContainer {
+       margin-top: 7.1875rem;
+    }
+    
+    .content {
+        background-color: var(--bottom);
+        border-radius: 1rem;
+        min-height: 0;
+    }
+    
+    .topContainer {
+        height: 9.375rem;
+        width: 25.9375rem;
+    }
+
+    .profileImg {
+        height: normal;
+    }
+
+    .flex {
+        margin-top: 0;
+    }
+    
+    .span {
+        padding-top: 0;
+    }
+    
+    
+    .bottom {
+        margin-left: .5rem;
+    }
+    
+    h2,
+    .head {
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+    span {
+        font-size: 15px;
+    }
+
+    .border {
+        margin-top: 30px;
+    }
+
+    .number {
+        column-gap: 40px;
+        margin-top: 30px;
+    }
+    
+}
