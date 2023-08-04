@@ -1,5 +1,5 @@
 # profile-card-component
-### Hey :wave: welcome to my challenge Nice to me you.... 
+### Hey :wave: welcome to my challenge Nice to meet you.... 
 
 ![space](https://github.com/tdmoree/profile-card-component/assets/127156119/0f2d0c6f-8994-410c-9392-b3f0f69327b2)
 
