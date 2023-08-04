@@ -15,8 +15,8 @@
 - **Bonus: Instead of using the createdAt strings from the data.json file, try using timestamps and dynamically track the time since the comment or reply was posted.**
 
 # Links
-- URL: [Solution URL](https://github.com/tdmoree/Interation-Comment-Section.git)
-- live: [Live Site URL]( https://tdmoree.github.io/Interation-Comment-Section/)
+- URL: [Solution URL](https://github.com/tdmoree/profile-card-component.git)
+- live: [Live Site URL]( https://tdmoree.github.io/profile-card-component/)
 
  # My process
  **Built with:**
@@ -28,4 +28,8 @@
 # What i learn 
 
 ### Some HTML code I'm proud of:
-- Mobile first design 
+- Mobile first design
+
+# Feedbacck
+
+**Your Feedback are welcome**
